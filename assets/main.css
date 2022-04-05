@@ -1,0 +1,99 @@
+:root {
+  font-family: 'Raleway', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 900px;
+  margin: 70px auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.failed {
+  margin-top: 5px;
+  padding: 10px 20px;
+  color: rgb(177, 29, 29);
+  border: 1px solid rgb(177, 29, 29);
+  text-align: center;
+  font-size: 18px;
+}
+
+.succesed{
+  margin-top: 5px;
+  padding: 10px 20px;
+  color: rgb(0, 120, 12);
+  border: 1px solid rgb(0, 120, 12);
+  text-align: center;
+  font-size: 18px;
+}
+.form {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.input {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.4rem;
+  width: 80%;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1.6rem;
+  width: 18%;
+  color: rgb(0, 116, 204);
+  border: 1px solid rgb(0, 116, 204);
+  background: white;
+}
+.todos {
+  margin-top: 22px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.4rem;
+  border-bottom: 1px dotted #ccc;
+  justify-content: space-between;
+}
+
+.todo:last-child {
+  border-bottom: none
+}
+.todo:hover {
+  background: #eee;
+  transition: 0.5s ease;
+}
+.delete {
+  text-decoration: none;
+  font-size: 1rem;
+  background: rgb(122, 121, 121);
+  color: #eee;
+  padding: 5px;
+}
+.delete:hover {
+  background-color: red;
+}
+
+.done,
+.undone {
+  color: black;
+  text-decoration: none;
+} 
+
+.done {
+  text-decoration: line-through;
+}
