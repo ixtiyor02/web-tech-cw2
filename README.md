@@ -29,3 +29,4 @@ node app
 - pug.js
 
 ### Web application repository on github
+https://github.com/ixtiyor02/web-tech-cw2.git
